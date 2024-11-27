@@ -8,7 +8,7 @@ tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 # adding padding token
 tokenizer.pad_token = tokenizer.eos_token
 
-#read dataset
+#tes untuk update
 df = pd.read_csv("/content/sample_data/Week3NikeProductDescriptionsGenerator.csv")
 #df.head(3)
 
